@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto;
+  }  
+
+.advisors{
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.advisors .member{
+    position:relative;
+    padding: 30px;
+    box-shadow:0px 2px 15px maroon;
+    /* rgba(0,0,0,0.1); */
+    border-radius: 20px;
+    background: white;
+}
+
+.advisors .member .teampic{
+    overflow:hidden;
+    width:180px;
+    border-radius:50%;
+}
+
+.advisors .member .member-info{
+    padding-left:30px;
+}
+
+.advisors .member h4{
+    font-weight: 700;
+    margin-bottom:5px;
+    font-size: 20px;
+    color: maroon;
+}
+
+.advisors .member span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: bolder;
+    color: black;
+}
+
+.advisors .member span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    /* background: white; */
+    bottom: 0;
+    left: 0;
+}
+
+.advisors .member h6{
+    font-weight: 200;
+    margin-bottom:5px;
+    font-size: 14px;
+    color: black;
+}
+
+.title{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:5px;
+    font-size: 200px;
+    color: black;
+}
+
+section{
+    padding: 60px 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 0px;
+}
+
+.sub-title{
+    font-weight: 300;
+    text-align:left;
+    top: 20%;
+    margin-top: 70px;
+    margin-bottom:5px;
+    font-size: 70px;
+    color: white;
+    text-shadow: 0px 2px 15px black;
+}
+
+.heading{
+  font-weight: bolder;
+  text-align: center;
+  /* top: 20%; */
+  margin-top: 100px;
+  margin-bottom:0px;
+  font-size: 120px;
+  color: white;
+  text-shadow: 0px 2px 15px black;
+}
+
+/* Position text in the middle of the page/image */
+.title {
+    /* background-color: rgb(0,0,0); Fallback color */
+    background-color: maroon; /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 0px solid #f1f1f1;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .bg-image {
+    /* The image used */
+     background-image: url("/Ashesi_Campus2.jpg"); 
+     position: relative;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+     z-index: -200;
+    /* Full height */
+    height: 200%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  #navbar{
+    width: 100%;
+    text-align: right;
+    height: 100px;
+    height: 70px;
+    line-height: 70px;
+    background: maroon;
+    border-bottom: rgba(255,255,255,0.3); 
+    position: fixed;
+    z-index: 20000;
+    padding-top: 0px;
+    }
+  
+  .logo a{
+    text-decoration: none;
+    float:left;
+    margin-left: 35px;
+    margin-top: 2px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display:block;
+  }
+  
+  .menu {
+    margin-right: 30px;
+  }
+  
+  
+  .menu a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 20px;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 6px; 
+  }
+  
+  label{
+    margin-right: 40px;
+    font-size: 25px;
+    line-height: 70px;
+    margin-top: 10px;
+    padding: 0 10px;
+    float: right;
+    width: 25px;
+    display:none;
+
+  }
+  
+  label i {
+    color: #fff;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  #nav-toggle{
+    display: none;
+  }
+
+  .menu a.active{
+    font-size: 150%;
+}
+
+.menu a:hover:not(.active){
+    font-size: 150%;
+}
+
+@media only screen and (max-width:800px){
+  #navbar{
+    padding-top:0px;
+  }
+
+  .logo{
+    position:absolute;
+    top: 5px;
+    font-size:20px;
+  }
+
+  label{
+    display: block;
+    cursor: pointer;
+  }
+
+}
+  
