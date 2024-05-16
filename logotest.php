@@ -28,13 +28,13 @@
                 <li class="dropdown">
                     <button class="dropbtn">Meet the Team <i class="fa fa-caret-down"></i></button>
                     <div class="dropdown-content">
-                        <a href="twentyseven.html">2027 Academic Advisors</a>
-                        <a href="twentysix.html">2026 Academic Advisors</a>
-                        <a href="twentyfive.html">2025 Academic Advisors</a>
+                        <a href="twentyseven.php">2027 Academic Advisors</a>
+                        <a href="twentysix.php">2026 Academic Advisors</a>
+                        <a href="twentyfive.php">2025 Academic Advisors</a>
                     </div>
                 </li>
                 <li><a href="#Peer Tutors">Peer Tutors</a></li>
-                <li><a href="tips.html">Tips</a></li>
+                <li><a href="tips.php">Tips</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>

@@ -28,11 +28,11 @@
             <label for="nav-toggle"><i class="fa fa-bars fa-2x"></i></label>
         
               <div class="menu">
-                <!-- <a href ="index.html">Home</a> -->
-                <a href="/twentyseven.html">2027</a>
-                <a href="/twentysix.html">2026</a>
-                <a href="/twentyfive.html">2025</a>
-                <a class = "active" href="/twentyfour.html">2024</a>
+                <!-- <a href ="index.php">Home</a> -->
+                <a href="twentyseven.php">2027</a>
+                <a href="twentysix.php">2026</a>
+                <a href="twentyfive.php">2025</a>
+                <a class = "active" href="twentyfour.php">2024</a>
               </div>
           </div>
         <div class = "container">
