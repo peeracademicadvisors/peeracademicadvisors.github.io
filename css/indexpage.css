@@ -1,0 +1,34 @@
+/* Add background image to the container */
+.background-container {
+    background-image: url('./design_images/ashesi_background.jpg');
+    /* Set background image properties */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    /* Blur the background image */
+    filter: blur(5px); /* Adjust the blur amount as needed */
+    /* Position the container to cover the whole viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the container behind other content */
+  }
+
+  
+  /* Hide the scrollbar */
+  body {
+    overflow: hidden;
+  }
+  
+  /* Style for the h1 */
+  h1 {
+    color: white; /* Set text color to white */
+    font-weight: 900; /* Set font weight to extra bold */
+    font-size: 64px; /* Set font size to 64 pixels */
+    text-align: center; /* Align text to the center */
+    margin-top: 50vh; /* Adjust to vertically center the text */
+    transform: translateY(-50%); /* Adjust to vertically center the text */
+  }
+  
